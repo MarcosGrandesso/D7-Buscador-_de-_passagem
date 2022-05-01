@@ -1,0 +1,135 @@
+body { font-family: 'Karma', serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Roboto', sans-serif;}
+
+
+.entrar { display: inline-block;
+    margin-left: 150px;
+    position: relative;
+    bottom: 30px;
+    color: #f15179;
+    font-size: 18px;
+}
+
+.header {background-color: rgb(255, 255, 255);
+height: 75px;}
+
+.parte-rosa {background-color: #f15179 ; 
+    height: 765px;
+}
+
+.parte-branca {background-color: white;
+height: 430px; width:350px;
+margin: 0 auto 0 auto;
+border-radius: 10px;}
+
+.footer {background-color: rgb(255, 255, 255);
+    height: 55px;}
+
+.logo-buser {width: 150px;
+     margin-left: 15px;}
+
+     .titulo1 { font-size: 26px;
+   padding: 30px 50px 0 30px;
+color: white;
+font-weight: 600;}
+
+.paragrafo1 { color: white;
+font-size: 19px;
+margin: 15px 0px 15px 30px ;
+}
+
+.button-footer { background-color: rgb(255, 255, 255);
+     border: none; 
+     margin-top: 27px;
+     margin-left: 10px;
+     font-size: 10px;
+    }
+
+.button-mid { width: 300px;
+    height: 50px;
+background-color: white;
+border: solid 2px;
+border-radius: 8px;
+border-color: rgba(128, 128, 128, 0.213)
+; margin: 20px 0 0 23px;
+text-align: left;
+}
+
+.button-rosa {background-color: #f15179;
+border: solid 2px;
+width: 300px;
+height: 50px;
+border-radius: 10px;
+border-color: #dd718c;
+margin-left: 23px;
+font-size: 20px;
+color: white;
+margin-top: 10px;
+}
+
+h4 { position: relative;
+left: 30px;
+top: 17px;
+font-size: 12px;
+font-weight: 600;
+color: rgb(86, 86, 86);}
+
+.lupinha { position: relative;
+    bottom: 50px;
+    display: inline-block;
+
+}
+
+.location { width: 17px;
+height: 17px;
+position: relative;
+left: 5px;
+top: 3px;}
+
+.oval {width: 17px;
+height: 17px;
+position: relative; 
+top: 3px;
+left: 5px;}
+
+.calendar { width: 15px;
+height: 15px;
+position: relative;
+top: 3px;
+left: 5px;}
+
+.icon-footer { width: 15px;
+height: 15px;
+position: relative;
+bottom: 15px;
+left: 20px;}
+
+.lupa-2 {width: 15px;
+  position: relative;
+  right: 3px;
+   }
+
+.inline {display: inline-block;}
+
+.alinha1{ position: relative;
+left: 24px;
+top: -12px;}
+
+.alinha2{ position: relative;
+    left: 27px;
+    top: -12px;}
+
+    .alinha3{ position: relative;
+        left: 27px;
+        top: -12px;}
+
+        .alinha4{ position: relative;
+            left: 35px;
+            top: -12px;}
+
+            .alinha5{ position: relative;
+                left: 23px;
+                top: -12px;}
