@@ -1,76 +1,83 @@
 <!DOCTYPE html>
 <html lang="pt-Br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Buscador de passagem</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Karma:wght@700&family=Noto+Sans:wght@200;600&family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&family=Roboto:ital,wght@0,300;0,700;0,900;1,500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
-    <div class="header">
-      <img src="logo-buser-cupom.png" alt="" class="logo-buser" />
-      <h2 class="entrar"> <b>Entrar</b> </h2>
-    </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Buscador de passagem</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Karma:wght@700&family=Noto+Sans:wght@200;600&family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&family=Roboto:ital,wght@0,300;0,700;0,900;1,500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-    <div class="parte-rosa">
-      <h1 class="titulo1">
-        VIAGENS DE ÔNIBUS MAIS BARATAS QUE A PASSAGEM DA RODOVIÁRIA
-      </h1>
-      <p class="paragrafo1">Sem taxas, com segurança e preço justo</p>
+<body>
+  <div class="header">
+    <img src="logo-buser-cupom.png" alt="" class="logo-buser" />
+    <h2 class="entrar"> <b>Entrar</b> </h2>
+  </div>
 
-      <div class="parte-branca">
-        <div>
-          <h4>Saindo de</h4> 
-          <button class="button-mid"> <img src="oval.png" alt="" class="oval"> &nbsp;&nbsp;&nbsp;<select name="select" class="form-local">
+  <div class="parte-rosa">
+    <h1 class="titulo1">
+      VIAGENS DE ÔNIBUS MAIS BARATAS QUE A PASSAGEM DA RODOVIÁRIA
+    </h1>
+    <p class="paragrafo1">Sem taxas, com segurança e preço justo</p>
+
+    <div class="parte-branca">
+      <div>
+        <h4>Saindo de</h4>
+        <button class="button-mid"> <img src="oval.png" alt="" class="oval"> &nbsp;&nbsp;&nbsp;<select name="select"
+            class="form-local margin">
             <option value="valor1">São Paulo - SP</option>
             <option value="valor2" selected>Rio de Janeiro - Rj </option>
             <option value="valor3">São José dos campos - Sp</option>
           </select></button>
-        </div>
+      </div>
 
-        <div>
-          <h4>Indo para</h4> 
-          <button class="button-mid"> <img src="pin.png" alt="" class="location"> &nbsp; <select name="select" class="form-local">
+      <div>
+        <h4>Indo para</h4>
+        <button class="button-mid"> <img src="pin.png" alt="" class="location"> &nbsp; <select name="select"
+            class="form-local">
             <option value="valor1">São Paulo - SP</option>
             <option value="valor2" selected>Rio de Janeiro - Rj </option>
             <option value="valor3">São José dos campos - Sp</option>
           </select></button>
-        </div>
+      </div>
 
-        <div>
-          <h4>Data de ida</h4>
-          <button class="button-mid"> <img src="calendar.png" alt="" class="calendar">&nbsp;&nbsp;&nbsp; ida <input id="date" type="date" class="idavolta"> </button>
-        </div>
+      <div>
+        <h4>Data de ida</h4>
+        <button class="button-mid"> <img src="calendar.png" alt="" class="calendar">&nbsp;&nbsp;&nbsp; ida <input
+            id="date" type="date" class="idavolta"> </button>
+      </div>
 
-        <div>
-          <h4>Data de volta</h4>
-          <button class="button-mid"> <img src="calendar.png" alt="" class="calendar">&nbsp;&nbsp;&nbsp;volta <input id="date" type="date" class="idavolta2"> </button>
-        </div>
-        
+      <div>
+        <h4>Data de volta</h4>
+        <button class="button-mid"> <img src="calendar.png" alt="" class="calendar">&nbsp;&nbsp;&nbsp;volta <input
+            id="date" type="date" class="idavolta2"> </button>
+      </div>
 
-        <div>
-          <button class="button-rosa"> <img src="loupe.png" alt="" class="lupa-2"> <h2 class="inline">Buscar</h2> </button>
-        </div>
+
+      <div>
+        <button class="button-rosa"> <img src="loupe.png" alt="" class="lupa-2">
+          <h2 class="inline">Buscar</h2>
+        </button>
       </div>
     </div>
-         
-    
+  </div>
 
-    <div class="footer">
-      <button class="button-footer"> <img src="loupe.png" alt=""class="icon-footer alinha1"> Buscar</button>
-      <button class="button-footer"> <img src="bus.png" alt="" class="icon-footer alinha2" > viagens</button>
-      <button class="button-footer"> <img src="wallet.png" alt="" class="icon-footer alinha3" > Carteira</button>
-      <button class="button-footer"> <img src="badge.png" alt="" class="icon-footer alinha4" > Promoções</button>
-      <button class="button-footer"> <img src="information.png" alt="" class="icon-footer alinha5" > Ajuda</button>
-    </div>
-  </body>
+
+
+  <div class="footer">
+    <button class="button-footer"> <img src="loupe.png" alt="" class="icon-footer alinha1"> Buscar</button>
+    <button class="button-footer"> <img src="bus.png" alt="" class="icon-footer alinha2"> viagens</button>
+    <button class="button-footer"> <img src="wallet.png" alt="" class="icon-footer alinha3"> Carteira</button>
+    <button class="button-footer"> <img src="badge.png" alt="" class="icon-footer alinha4"> Promoções</button>
+    <button class="button-footer"> <img src="information.png" alt="" class="icon-footer alinha5"> Ajuda</button>
+  </div>
+</body>
+
 </html>
